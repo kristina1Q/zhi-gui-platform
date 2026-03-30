@@ -43,7 +43,7 @@ function onFileChange(e) {
 <template>
   <header class="topbar">
     <div class="left">
-      <div class="brand">🎓 职业规划平台</div>
+      <div class="brand">🎓 职业规划平台111</div>
       <nav class="nav">
         <button :class="{ active: currentView === 'dashboard' }" @click="changeView('dashboard')">个人成长画像</button>
         <button :class="{ active: currentView === 'resources' }" @click="changeView('resources')">资源整合库</button>
